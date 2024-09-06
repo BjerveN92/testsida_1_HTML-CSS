@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    font-family: "Audiowide", sans-serif;
+}
+/*body*/
+body {
+    background-color: #f5f5dc;
+}
+/*div-boxes*/
+.boxes {
+    
+    
+    /*font-size: medium;*/
+    /*font-weight:800;*/
+    color: #000000;
+    text-shadow: 1px 5px 10px  #000000;
+    
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.box {
+    background-color: aqua;
+    border: 3px solid rgb(0, 204, 255);
+    padding: 32px 64px; 
+}
+.box-2 {
+    background-color: rgb(255, 165, 165);
+    border: 3px solid rgb(255, 104, 104);
+    padding: 32px 64px; 
+}
+.box-3 {
+    background-color: rgb(108, 218, 141);
+    border: 3px solid rgb(30, 182, 47);
+    padding: 32px 64px; 
+}
+/*PICS*/
+.pics-1-2 {
+    display: flex;
+    
+}
+.pics-3-4 {
+    display: flex;
+}
+.textbox-1 {
+    display: flex;
+    background-color: #ffff62;
+    
+    padding: 32px 64px; 
+}
+.textbox-2 {
+    display: flex;
+    background-color: #9bdc87;
+    
+    padding: 32px 64px; 
+}
